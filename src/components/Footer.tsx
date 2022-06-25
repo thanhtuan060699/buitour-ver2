@@ -72,8 +72,7 @@ export const Footer = () => {
 
             <a
               href="https://www.linkedin.com/"
-              rel="noreferrer"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
             </a>
           </div>

@@ -92,7 +92,7 @@ export default function Home() {
         </div>
       </div>
 
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}}  href = "https://www.facebook.com/welovebuitour/posts/2802792870023912">
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}}  href = "https://www.facebook.com/welovebuitour/posts/2802792870023912">
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -149,7 +149,7 @@ export default function Home() {
       </p>
    </div>
 
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912">
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912">
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -194,7 +194,7 @@ export default function Home() {
       </div>
     </div>
 
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912" >
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -233,7 +233,7 @@ export default function Home() {
       - Đoàn ghé chơi tắm biển, ăn nhậu ở <span style={{fontWeight: "bold"}}>Finns Beach Club</span> đến tối
       </p>
     </div>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912" >
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -322,7 +322,7 @@ export default function Home() {
       - Đoàn về tới Việt Nam, kết thúc tốt đẹp chuyến đi
       </p>
     </div>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2802792870023912" >
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -337,7 +337,7 @@ export default function Home() {
       <p style={{marginLeft: "20px"}}>
       Không bao ăn không nghĩa là bỏ mặc việc ăn uống cho bạn. Trưởng đoàn vẫn sẽ dẫn bạn đến chỗ ăn. Giới thiệu món ăn gợi ý. Nhưng việc chọn món sẽ do bạn tự chọn theo ý thích. Trong quá trình order nếu có gì vướng mắc, trưởng đoàn sẽ sẵn sàng hỗ trợ bạn. Việc này sẽ giúp bạn có được trải nghiệm ẩm thực trọn vẹn nhất khi ở Bali
       </p>
-      <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+      <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     </div>
@@ -355,7 +355,7 @@ export default function Home() {
       <p style={{marginLeft: "20px"}}>
       Nhưng lại không cần phải lo những thứ như đặt vé máy bay, lịch trình đi lại, ăn đâu ngủ đâu. Lỡ đi lạc thì sao, không được nhập cảnh thì sao, không rành tiếng Anh thì làm thế nào...Rất nhiều thứ phải lo ở một đất nước xa lạ.
       </p>
-      <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+      <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     </div>
@@ -370,7 +370,7 @@ export default function Home() {
       <p style={{marginLeft: "20px"}}>
       Phần còn lại khách hoàn thành trước 10 ngày so với ngày khởi hành
       </p>
-      <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+      <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     </div>
@@ -382,7 +382,7 @@ export default function Home() {
     <p style={{marginLeft: "20px"}}>
      Đoàn sẽ di chuyển bằng xe đặt riêng, ô tô
     </p>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
@@ -391,7 +391,7 @@ export default function Home() {
     <p style={{marginLeft: "20px"}}>
     Khách sạn, resort tiêu chuẩn 4 sao ở Kuta và Ubud. 2 người/ 1 phòng
     </p>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>

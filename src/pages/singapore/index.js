@@ -92,7 +92,7 @@ export default function Home() {
         </div>
       </div>
 
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href = "https://www.facebook.com/welovebuitour/posts/2789630751340124">
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href = "https://www.facebook.com/welovebuitour/posts/2789630751340124">
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -175,7 +175,7 @@ export default function Home() {
     </div>
     
 
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124">
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124">
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -238,7 +238,7 @@ export default function Home() {
       </p>
     </div>
 
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124" >
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -295,7 +295,7 @@ export default function Home() {
       - Đoàn ăn tối bằng món cháo ếch Singapore thứ thiệt và sầu riêng Malaysia
       </p>
     </div>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124" >
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -340,7 +340,7 @@ export default function Home() {
    <div>
    Lưu ý: Thứ tự lịch trình có thể thay đổi nhưng số lượng địa điểm vẫn sẽ được đảm bảo
    </div>
-   <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124" >
+   <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2789630751340124" >
       Hình ảnh các địa điểm tham quan: click here
     </a>
 
@@ -354,7 +354,7 @@ export default function Home() {
       <p style={{marginLeft: "20px"}}>
       Không bao ăn không nghĩa là bỏ mặc việc ăn uống cho bạn. Trưởng đoàn vẫn sẽ dẫn bạn đến chỗ ăn. Giới thiệu món ăn gợi ý. Nhưng việc chọn món sẽ do bạn tự chọn theo ý thích. Trong quá trình order nếu có gì vướng mắc, trưởng đoàn sẽ sẵn sàng hỗ trợ bạn. Việc này sẽ giúp bạn có được trải nghiệm ẩm thực trọn vẹn nhất khi ở Singapore
       </p>
-      <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+      <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     </div>
@@ -373,7 +373,7 @@ export default function Home() {
       <p style={{marginLeft: "20px"}}>
       Nhưng lại không cần phải lo những thứ như đặt vé máy bay, lịch trình đi lại, ăn đâu ngủ đâu. Lỡ đi lạc thì sao, không được nhập cảnh thì sao, không rành tiếng Anh thì làm thế nào...Rất nhiều thứ phải lo ở một đất nước xa lạ.
       </p>
-      <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+      <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     </div>
@@ -388,7 +388,7 @@ export default function Home() {
       <p style={{marginLeft: "20px"}}>
       Phần còn lại khách hoàn thành trước 10 ngày so với ngày khởi hành
       </p>
-      <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+      <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     </div>
@@ -402,7 +402,7 @@ export default function Home() {
 Xe bus bên Singapore cực kì sạch sẻ, mát mẻ, không có mùi. Xịn hơn rất nhiều so với xe khách, xe giường nằm Việt Nam
 
     </p>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
@@ -414,7 +414,7 @@ Xe bus bên Singapore cực kì sạch sẻ, mát mẻ, không có mùi. Xịn h
     <p style={{marginLeft: "20px"}}>
     Trong trường hợp bạn muốn book phòng riêng. BụiTour sẽ hỗ trợ bạn book phòng riêng (2 người/ phòng). Chi phí sẽ được báo trước khi bạn đồng ý
     </p>
-    <a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+    <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
 
@@ -423,17 +423,17 @@ Xe bus bên Singapore cực kì sạch sẻ, mát mẻ, không có mùi. Xịn h
     </div>
     <div style={{marginLeft: "20px"}}>
       <p>
-        a.<a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2790916684544864" >
+        a.<a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2790916684544864" >
         4 món đặc sản sẽ ăn cùng BụiTour ở Singapore
     </a>
       </p>
       <p>
-        b.<a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2793582534278279" >
+        b.<a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2793582534278279" >
         4 địa điểm chỉ đi Singapore cùng BuiTour mới có
     </a>
       </p>
       <p>
-        c.<a target="_blank" style={{color: "#2935b1", textDecorationLine: "revert"}} style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
+        c.<a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2796330640670135" >
         Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
       </p>

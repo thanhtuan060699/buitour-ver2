@@ -97,27 +97,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
               </li>
             </ul>
 
-            <div className='mt-6 border-t border-gray-200 pt-6 dark:border-gray-200/10'>
-              <ThemeSelect />
-            </div>
-            <ul className='mt-8 space-y-3 border-t border-gray-200 dark:border-gray-200/10'>
-              <li>
-                <Button
-                  variant='solid'
-                  fullWidth
-                  onClick={() => setShowAuth(true)}
-                >
-                  Sign In
-                </Button>
-              </li>
-              <li>
-                <Link href='/#' passHref>
-                  <Button as='a' variant='outline' fullWidth>
-                    For Employers
-                  </Button>
-                </Link>
-              </li>
-            </ul>
+           
 
             <IconButton
               variant='ghost'

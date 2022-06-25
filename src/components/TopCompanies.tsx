@@ -19,13 +19,6 @@ const topCompaniesItems = [
     link: "/bali"
   },
   {
-    companyName: "Bali( Từ Hà Nội )",
-    category: "Lempuyang,Tirta Gangga,...",
-    image: "/img/bali2.jpeg",
-    logo: "/img/Flag_of_Indonesia.png",
-    link: "/balihn",
-  },
-  {
     companyName: "Thái Lan",
     category: "Koh Larn,Bangkok,...",
     image: "/img/Thailand.jpeg",
