@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <div className="relative h-[640px] w-full bg-red-500/20 sm:h-[55vh] md:h-[440px]">
         <Image
-          src="/img/corporate.jpg"
+          src="/img/279864523_2816684161968116_1231657070734185857_n.jpeg"
           alt="corporate"
           layout="fill"
           objectFit="cover"
@@ -24,10 +24,10 @@ const Hero = () => {
             </div>
             <div className="mx-4 mt-16 flex flex-col items-center text-center">
               <h1 className="text-3xl font-extrabold uppercase tracking-wide text-white sm:text-4xl md:text-5xl lg:text-6xl">
-                discover your future
+                discover your world
               </h1>
               <span className="mt-6 text-xl text-white sm:text-2xl">
-                find your next job
+                Tìm kiếm điểm đến tiếp theo
               </span>
 
               <div className="mt-8">
@@ -37,7 +37,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <HeroBottomCard />
     </>
   );
 };
@@ -60,8 +59,7 @@ const HeroInnerBanner: React.FC<{ show: boolean; onClose: () => void }> = ({
     >
       <div className="relative rounded bg-gradient-to-r from-purple-500 to-indigo-800 py-3 px-8 text-center text-white shadow-lg md:rounded-full">
         <p>
-          Welcome to <span className="font-bold">HIREDLi</span>. An easier and
-          faster job discovery platform.
+          Welcome to <span className="font-bold">Bụi Tour</span>. Đi Tour Như Đi Bụi
         </p>
         <span className="absolute top-1 right-1 sm:top-2 sm:right-2">
           <IconButton
@@ -90,7 +88,7 @@ const HeroInnerBanner: React.FC<{ show: boolean; onClose: () => void }> = ({
   );
 };
 
-const items = ["graphic designer", "software developer", "architecture"];
+const items = ["Thái Lan", "Bali", "Singapore", "Malaysia"];
 
 const SearchForm = () => {
   const [query, setQuery] = useState("");
@@ -141,7 +139,7 @@ const SearchForm = () => {
           className="w-full appearance-none border-transparent p-2 text-xl leading-6 text-slate-900 placeholder-slate-400 focus:border-transparent focus:ring-0"
           type="text"
           aria-label="Search input"
-          placeholder="Job Title..."
+          placeholder="Địa điểm..."
           onClick={() => {
             if (!isDirty) {
               setIsDirty(true);
@@ -171,7 +169,7 @@ function HeroBottomCard() {
       <span className="block text-center text-lg text-white">
         No time to look for jobs? Drop your resume with{" "}
         <span className="bg-gradient-to-r from-fuchsia-700 via-purple-500 to-indigo-500 bg-clip-text align-middle text-2xl font-black tracking-widest text-transparent">
-          HIREDLi-X
+          Bụi Tour-X
         </span>{" "}
         headhunters here.
       </span>

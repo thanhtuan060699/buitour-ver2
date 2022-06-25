@@ -11,7 +11,7 @@
 
 This project is built using [React.js](https://reactjs.org/), [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [Typescript](https://www.typescriptlang.org/).
 
-[**👉View Live**](https://hiredli-tw-miadv.vercel.app/)
+[**👉View Live**](https://Bụi Tour-tw-miadv.vercel.app/)
 
 Join my youtube channel to see more videos like this. [Youtube Channel](https://www.youtube.com/c/MiadVosoughi)
 
@@ -42,7 +42,7 @@ README.md
 
 ### Running Locally
 
-1. Clone this reposiroty `git clone https://github.com/MiadV/hiredli-tw.git`
+1. Clone this reposiroty `git clone https://github.com/MiadV/Bụi Tour-tw.git`
 2. Navigate to project folder and install the dependencies.
 
 ```bash

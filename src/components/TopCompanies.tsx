@@ -5,40 +5,39 @@ import { Button } from "@/components/Button";
 
 const topCompaniesItems = [
   {
-    companyName: "Rempel and Sons",
-    category: "Media & Marketing",
-    image: "/img/08.jpg",
-    logo: "/img/logo.jpg",
+    companyName: "Singapore",
+    category: "Jewel,Garden by the Bay...",
+    image: "/img/singapre.jpeg",
+    logo: "/img/singapore-flag2.jpeg",
+    link: "/singapore"
   },
   {
-    companyName: "Dietrich, Beahan and Connelly",
-    category: "Tourism",
-    image: "/img/09.jpg",
-    logo: "/img/logo.jpg",
+    companyName: "Bali",
+    category: "Lempuyang,Tirta Gangga,...",
+    image: "/img/bali.jpeg",
+    logo: "/img/Flag_of_Indonesia.png",
+    link: "/bali"
   },
   {
-    companyName: "Gutmann LLC",
-    category: "Oil & Gas",
-    image: "/img/10.jpg",
-    logo: "/img/logo.jpg",
+    companyName: "Bali( Từ Hà Nội )",
+    category: "Lempuyang,Tirta Gangga,...",
+    image: "/img/bali2.jpeg",
+    logo: "/img/Flag_of_Indonesia.png",
+    link: "/balihn",
   },
   {
-    companyName: "Kerluke Group",
-    category: "Accounting",
-    image: "/img/11.jpg",
-    logo: "/img/logo.jpg",
+    companyName: "Thái Lan",
+    category: "Koh Larn,Bangkok,...",
+    image: "/img/Thailand.jpeg",
+    logo: "/img/FlagThaiLand.png",
+    link: "/thailand",
   },
   {
-    companyName: "Hahn LLC",
-    category: "Food & Beverage",
-    image: "/img/12.jpg",
-    logo: "/img/logo.jpg",
-  },
-  {
-    companyName: "Ziemann, Nicolas and Grady",
-    category: "Construction",
-    image: "/img/04.jpg",
-    logo: "/img/logo.jpg",
+    companyName: "Sing-Malay",
+    category: "Jewel,Garden by the Bay...",
+    image: "/img/sing2.jpeg",
+    logo: "/img/Flag_of_Indonesia.png",
+    link: "/singmalay",
   },
 ];
 
@@ -46,10 +45,8 @@ export const TopCompanies = () => {
   return (
     <section id="top-companies">
       <div className="mb-8 flex items-center justify-between">
-        <h2 className="text-2xl font-bold">Top Companies</h2>
-        <Button variant="outline" className="hidden xs:inline-flex">
-          Show All
-        </Button>
+        <h2 className="text-2xl font-bold">Top Destination</h2>
+     
       </div>
 
       <div
@@ -57,7 +54,7 @@ export const TopCompanies = () => {
         className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3"
       >
         {topCompaniesItems.map((item, i) => (
-          <Link href="/#" key={i}>
+          <Link href={item.link} key={i}>
             <a className="group block overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md transition-all duration-150 hover:-translate-y-1 hover:shadow-lg dark:border-slate-800 dark:bg-slate-700">
               <div className="relative block overflow-hidden  pt-[70%]">
                 <Image

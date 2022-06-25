@@ -3,6 +3,7 @@ import "@/css/fonts.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
+import '../../styles/globals.css';
 import "swiper/css/navigation";
 //
 import "@/css/main.css";

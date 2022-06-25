@@ -2,8 +2,8 @@ import React from "react";
 import Head from "next/head";
 
 const defaultMeta = {
-  title: "Job Seeking Landing Page - Miad V",
-  description: "Exprimental Project",
+  title: "Bụi Tour",
+  description: "Đi Tour Như Đi Bụi",
 };
 
 const SEO: React.FC<any> = ({ children, ...customMeta }) => {

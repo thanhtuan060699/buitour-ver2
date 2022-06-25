@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Icon from "../../public/img/back.png";
+
 
 const footerNav = {
   Company: [
@@ -8,55 +11,36 @@ const footerNav = {
       href: "/#",
     },
     { title: "Contact Us", href: "/#" },
-    { title: "Newsroom", href: "/#" },
-    { title: "FAQ", href: "/#" },
   ],
-  "Job Seeker": [
-    {
-      title: "Jobs by Specialisation",
-      href: "/#",
-    },
-    { title: "Jobs by Location", href: "/#" },
-    { title: "Jobs by Type", href: "/#" },
-    { title: "Jobs by Experience Level", href: "/#" },
-    { title: "Companies", href: "/#" },
-    { title: "Advice", href: "/#" },
-  ],
-  Employers: [
-    {
-      title: "Start Hiring Today",
-      href: "/#",
-    },
-    { title: "Headhunting Services", href: "/#" },
-  ],
+ 
 };
 
 const SocialLinks = [
   {
     title: "Instagram",
-    link: "https://instagram.com/",
+    link: "https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fbuitour%3Ffbclid%3DIwAR07gH-b5WoPyDXSjgOVN_zVh_DkLVyfV2T39aK_s5piUM1Zrw8VS06Emy4&h=AT0f09FfEw-mjUm-fpGY9tCcJOgajAUck2PsyzGqNhh6e5h-RUgkMgjWpwD0rBCpvYQrVAuFO0iMC4Pd6Dh_IkgyzHltgeXHnslWw8bTYfMJ0zZYu6_V8wfyTWmnwPH5PE4YVH_7W9A",
     Icon: <InstagramIcon height={30} width={30} />,
   },
   {
     title: "Facebook",
-    link: "https://facebook.com/",
+    link: "https://www.facebook.com/welovebuitour",
     Icon: <FacebookIcon height={30} width={30} />,
   },
-  {
-    title: "Tiktok",
-    link: "https://tiktok.com/",
-    Icon: <TiktokIcon height={30} width={30} />,
-  },
-  {
-    title: "LinkedIn",
-    link: "https://linkedin.com/",
-    Icon: <LinkedInIcon height={30} width={30} />,
-  },
-  {
-    title: "Youtube",
-    link: "https://youtube.com/",
-    Icon: <YoutubeIcon height={30} width={30} />,
-  },
+  // {
+  //   title: "Tiktok",
+  //   link: "https://tiktok.com/",
+  //   Icon: <TiktokIcon height={30} width={30} />,
+  // },
+  // {
+  //   title: "LinkedIn",
+  //   link: "https://linkedin.com/",
+  //   Icon: <LinkedInIcon height={30} width={30} />,
+  // },
+  // {
+  //   title: "Youtube",
+  //   link: "https://youtube.com/",
+  //   Icon: <YoutubeIcon height={30} width={30} />,
+  // },
 ];
 
 export const Footer = () => {
@@ -65,11 +49,9 @@ export const Footer = () => {
       <div className="mx-auto max-w-screen-xl px-6 pt-16 sm:px-8">
         <div className="grid grid-cols-1 gap-y-6 gap-x-6 md:!grid-cols-6 md:gap-8 xs:grid-cols-2">
           <div className="mb-4  flex flex-col xs:col-span-2">
-            <span className="text-xl font-bold capitalize">Hiredli</span>
+            <span className="text-xl font-bold capitalize">Bụi Tour</span>
             <p className="mt-4 max-w-screen-xs text-sm">
-              We are on an unwavering mission to be Asia’s most loved job search
-              platform, helping people discover any job with any employer in the
-              market.
+              Bụi Tour - Đi Tour Như Đi Bụi
             </p>
             <ul
               id="social-media-links"
@@ -88,17 +70,11 @@ export const Footer = () => {
               ))}
             </ul>
 
-            <span className="mt-8 text-xl font-bold capitalize">
-              our strategic partner
-            </span>
-
             <a
               href="https://www.linkedin.com/"
               rel="noreferrer"
               target="_blank"
-              className="mt-4 max-w-min"
             >
-              <LinkedInFullIcon height={35} />
             </a>
           </div>
 
@@ -123,48 +99,8 @@ export const Footer = () => {
             );
           })}
 
-          <div className="flex flex-col space-y-2">
-            <h2 className="mb-4 text-xl font-semibold text-gray-900 dark:text-gray-100">
-              Get Our App
-            </h2>
-            <a href="#">
-              <img
-                src="/img/app_store_download_button.svg"
-                alt="download app"
-                className="h-12"
-              />
-            </a>
-            <a href="#">
-              <img
-                src="/img/google_play_download_button.svg"
-                alt="download app"
-                className="h-12"
-              />
-            </a>
-            <a href="#">
-              <img
-                src="/img/app_gallery_download_button.svg"
-                alt="download app"
-                className="h-12"
-              />
-            </a>
-          </div>
         </div>
 
-        <div
-          id="footer-copyright"
-          className="mt-2 border-t border-slate-200 py-4 dark:border-slate-600"
-        >
-          <p className="text-center text-sm dark:text-gray-300">
-            Copyright © 2022{" "}
-            <a
-              href="https://github.com/miadv"
-              className="font-semibold hover:text-indigo-800 hover:underline dark:hover:text-white"
-            >
-              Miad Vosoughi
-            </a>
-          </p>
-        </div>
       </div>
     </footer>
   );

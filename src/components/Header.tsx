@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Button, IconButton } from './Button';
 import { ThemeSelect, ThemeToggle } from './ThemeToggle';
 import Logo from './Logo';
-import { AuthenticationDialog } from './AuthenticationDialog';
 
 export const Header: React.FC = () => {
   const [showAuth, setShowAuth] = useState(true);
@@ -19,43 +18,19 @@ export const Header: React.FC = () => {
         />
         <div className='flex shrink-0 grow-0 basis-1/3 justify-center md:justify-start'>
           <Link href='/#'>
-            <a className='my-auto flex w-[140px] md:ml-0'>
+            <a className='my-auto flex w-[160px] md:ml-0'>
               <Logo />
             </a>
           </Link>
-          <div className='hidden gap-2 md:ml-2 md:flex'>
+          {/* <div className='hidden gap-2 md:ml-2 md:flex'>
             <Link href='/#' passHref>
               <Button variant='ghost' as='a'>
-                Companies
+                Discover
               </Button>
             </Link>
-            <Link href='/#' passHref>
-              <Button variant='ghost' as='a'>
-                jobs
-              </Button>
-            </Link>
-          </div>
-        </div>
-        <div className='relative flex basis-1/3 justify-end gap-2'>
-          <Link href='/#' passHref>
-            <Button as='a' variant='outline' className='hidden md:inline-flex'>
-              For Employers
-            </Button>
-          </Link>
-          <Button
-            variant='solid'
-            className='hidden md:inline-flex'
-            onClick={() => setShowAuth(true)}
-          >
-            Sign In
-          </Button>
-          <ThemeToggle />
+          </div> */}
         </div>
       </header>
-      <AuthenticationDialog
-        isOpen={showAuth}
-        onClose={() => setShowAuth(false)}
-      />
     </>
   );
 };
@@ -108,7 +83,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
           </Transition.Child>
 
           <div className='fixed top-0 bottom-0 left-0 w-full max-w-xs rounded-r-xl bg-white p-6 shadow-lg dark:bg-gray-800 '>
-            <a className='mx-auto mt-4 flex w-[140px]'>
+            <a className='mx-auto mt-4 flex w-[160px]'>
               <Logo />
             </a>
             <ul className='mt-8 space-y-3'>
@@ -116,15 +91,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
                 <span className='absolute h-full w-2 bg-indigo-700 opacity-0 transition-all group-hover:opacity-100' />
                 <Link href='/#' passHref>
                   <a className='w-full font-medium transition-all group-hover:pl-3'>
-                    Companies
-                  </a>
-                </Link>
-              </li>
-              <li className='group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50'>
-                <span className='absolute h-full w-2 bg-indigo-700 opacity-0 transition-all group-hover:opacity-100' />
-                <Link href='/#' passHref>
-                  <a className='w-full font-medium transition-all group-hover:pl-3'>
-                    Jobs
+                    Discover
                   </a>
                 </Link>
               </li>
