@@ -6,7 +6,7 @@ export default function Home() {
         BALI BY BỤITOUR (HN)
       </div>
       <div style={{backgroundImage: "url(back3.png)", backgroundRepeatX: "no-repeat", backgroundSize: "490px",
-    backgroundPosition: "center", backgroundPositionY: "unset"}}>
+    backgroundPosition: "center", backgroundPositionY: "unset",backgroundRepeat: "repeat-y"}}>
       <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "50px"}}>
         1.Thông tin cơ bản
       </div>
