@@ -259,6 +259,9 @@ export default function Home() {
       - Đoàn về khách sạn nghỉ ngơi
       </p>
     </div>
+    <p style={{marginTop: "20px"}}>
+    <span style={{fontWeight: "bold"}}>Lưu ý </span> thứ tự lịch trình có thể thay đổi, tuy nhiên số lượng vẫn sẽ được đảm bảo
+    </p>
     <p style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
     Tối:
     </p>
