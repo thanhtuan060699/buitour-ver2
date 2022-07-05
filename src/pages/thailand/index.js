@@ -17,13 +17,16 @@ export default function Home() {
         </p>
         <div style={{paddingLeft: "20px"}}>
           <p>
-            - Tháng 6: 15/06-19/06
-          </p>
-          <p>
             - Tháng 7: 27/07-31/07
           </p>
           <p>
-            - Tháng 8: 31/08-04/09 (phụ thu lễ 1.000.000đ)
+            - Tháng 8: 31/08-04/09 (Phụ thu lễ 1.000.000đ)
+          </p>
+          <p>
+            - Tháng 9: 21/09-25/09
+          </p>
+          <p>
+            - Tháng 10: 26/10-30/10
           </p>
         </div>
       </div>
@@ -253,15 +256,7 @@ export default function Home() {
     </p>
     <div style={{marginLeft: "20px"}}>
       <p>
-      - Đoàn di chuyển đến tham quan cung điện Hoàng Gia Thái - Grand Palace
-      </p>
-    </div>
-    <p style={{marginTop: "20px"}}>
-    <span style={{fontWeight: "bold"}}>Notes</span>: cung điện có 2 khu vực. Miễn phí và trả phí. Trong trường hợp bạn vào khu vực trả phí thì tự túc chi phí
-    </p>
-    <div style={{marginLeft: "20px"}}>
-      <p>
-      -  Đoàn di chuyển sang phố <span style={{fontWeight: "bold"}}>Tây Khaosan</span> và tận hưởng đặc sản <span style={{fontWeight: "bold"}}>foot massage</span>
+      - Đoàn về khách sạn nghỉ ngơi
       </p>
     </div>
     <p style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>

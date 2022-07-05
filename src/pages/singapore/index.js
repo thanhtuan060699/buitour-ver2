@@ -17,16 +17,13 @@ export default function Home() {
         </p>
         <div style={{paddingLeft: "20px"}}>
           <p>
-            - Tháng 6: 25/06-28/06
-          </p>
-          <p>
-            - Tháng 7: 23/07-26/07
-          </p>
-          <p>
             - Tháng 8: 13/08-16/08
           </p>
           <p>
-            - Tháng 9: 01/09-04/09 (phụ thu lễ 1.000.000đ)
+            - Tháng 9: 01/09-04/09 (Phụ thu lễ 1.000.000đ)
+          </p>
+          <p>
+            - Tháng 10: 08/10-11/10
           </p>
         </div>
       </div>
