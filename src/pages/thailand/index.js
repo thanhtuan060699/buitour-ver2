@@ -259,9 +259,7 @@ export default function Home() {
       - Đoàn về khách sạn nghỉ ngơi
       </p>
     </div>
-    <p style={{marginTop: "20px"}}>
-    <span style={{fontWeight: "bold"}}>Lưu ý </span> thứ tự lịch trình có thể thay đổi, tuy nhiên số lượng vẫn sẽ được đảm bảo
-    </p>
+    
     <p style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
     Tối:
     </p>
@@ -346,6 +344,9 @@ export default function Home() {
         - Đoàn về lại Việt Nam, kết thúc tốt đẹp chuyến đi
       </p>
     </div>
+    <p style={{marginTop: "20px"}}>
+    <span style={{fontWeight: "bold"}}>Lưu ý </span> thứ tự lịch trình có thể thay đổi, tuy nhiên số lượng vẫn sẽ được đảm bảo
+    </p>
 
     <a target="_blank" rel="noopener noreferrer" style={{color: "#2935b1", textDecorationLine: "revert"}} href="https://www.facebook.com/welovebuitour/posts/2807592552877277" >
       Hình ảnh các địa điểm tham quan: click here
