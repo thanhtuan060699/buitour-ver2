@@ -85,7 +85,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
             <a className='mx-auto mt-4 flex w-[160px]'>
               <Logo />
             </a>
-            <ul className='mt-8 space-y-3'>
+            {/* <ul className='mt-8 space-y-3'>
               <li className='group relative flex h-9 items-center overflow-hidden rounded-md hover:bg-slate-200/50'>
                 <span className='absolute h-full w-2 bg-indigo-700 opacity-0 transition-all group-hover:opacity-100' />
                 <Link href='/#' passHref>
@@ -94,7 +94,7 @@ const MenuPopOver = ({ className, display, setShowAuth }: any) => {
                   </a>
                 </Link>
               </li>
-            </ul>
+            </ul> */}
 
            
 
