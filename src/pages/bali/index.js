@@ -103,24 +103,8 @@ export default function Home() {
     </a>
 
 
-
-
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-      2.Thông tin về việc yêu cầu nhập cảnh Bali
-    </div>
-    <p >
-    - Từ ngày 01/04/2022, Bali chỉ yêu cầu du khách đã tiêm 2 mũi Vaccin test PCR trước 48h. Ngoài ra <span style={{fontWeight: "bold"}}>không yêu cầu cách ly</span> hay bất kì thủ tục gì thêm
-    </p>
-    <p>
-      - Từ ngày 15/05/2022 du khách du lịch nước ngoài khi nhập cảnh trở lại Việt Nam <span style={{fontWeight: "bold"}}>không cần test covid</span>
-    </p>
-    <p style= {{marginLeft: "14px"}}>
-      Ngắn gọn: nhập cảnh vào Bali và Việt Nam đã <span style={{fontWeight: "bold"}}>quay lại như trước dịch</span>
-    </p>
-
-
-    <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-      3.Lịch trình chi tiết
+      2.Lịch trình chi tiết
     </div>
     <div style={{fontWeight: "bold", marginTop: "10px"}}>
       Ngày 01: SG - Bali - Ubud - Đặc sản Naughty Nuris
@@ -333,7 +317,7 @@ export default function Home() {
     </a>
 
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-      4. Thông tin khác:
+      3. Thông tin khác:
     </div>
 
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
@@ -401,7 +385,7 @@ export default function Home() {
       Review khách hàng đã sử dụng dịch vụ của BụiTour
     </a>
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-      5.Thông tin về Công Ty BụiTour
+      4.Thông tin về Công Ty BụiTour
     </div>
     <div style={{marginLeft: "20px"}}>
     <p>
@@ -449,14 +433,8 @@ export default function Home() {
     
 
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-      6.Câu hỏi thường gặp
+      5.Câu hỏi thường gặp
     </div>
-    <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-      Cụ thể xét nghiệm để nhập cảnh vào Bali như thế nào?
-    </div>
-    <p style={{marginLeft: "20px"}}>
-      Bạn test PCR trước giờ bay 48h. Phía BụiTour sẽ gửi bạn list các phòng khám trước khi đi để bạn tham khảo
-    </p>
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
     Không bao ăn thì ăn uống như thế nào?
     </div>
@@ -465,14 +443,14 @@ export default function Home() {
     </p>
 
     <div style={{fontSize: "16px", fontWeight: "bold", marginTop: "20px"}}>
-    7.Chính sách hủy tour
+    6.Chính sách hủy tour
     </div>
     <div style={{marginLeft: "20px"}}>
     <p>
     Huỷ tour khi đã cọc: mất 100% tiền cọc tour
     </p>
     <p>
-    Huỷ tour sau khi đã hoàn thành 100% tiền tour: mất 80% tiền tour
+    Huỷ tour sau khi đã hoàn thành 100% tiền tour: mất 85% tiền tour
     </p>
     </div>
 
