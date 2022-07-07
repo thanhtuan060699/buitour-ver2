@@ -13,7 +13,7 @@ import { Header } from "@/components/Header";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="light">
+    <ThemeProvider attribute="class" defaultTheme="system">
       <Header />
       <Component {...pageProps} />
     </ThemeProvider>
